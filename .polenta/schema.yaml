@@ -1,0 +1,125 @@
+version: 1
+nodes:
+  - name: root
+    label: Moteur BLDC & onduleur
+    description: 'Composant réutilisable : moteur à entraînement direct et son onduleur.'
+    readonly: false
+    objectTypes:
+      - name: exigence-moteur
+        label: Exigence Moteur
+        prefix: MOT
+        category: requirement
+        fields:
+          - &ref_0
+            name: statement
+            label: Énoncé (EARS)
+            type: richtext
+            validator: EARS
+            required: true
+          - &ref_1
+            name: priority
+            label: Priorité
+            type: enum
+            values:
+              - high
+              - medium
+              - low
+            required: true
+            default: medium
+          - &ref_2
+            name: securite
+            label: Exigence de sécurité
+            type: boolean
+            default: false
+          - name: couple_nm
+            label: Couple (N·m)
+            type: number
+          - name: acceptanceCriteria
+            label: Critères d'acceptance
+            type: richtext
+        statuses: &ref_3
+          - name: draft
+            label: Brouillon
+            color: '#475569'
+          - name: review
+            label: En review
+            color: '#b45309'
+          - name: approved
+            label: Approuvé
+            color: '#16a34a'
+            isApproval: true
+          - name: obsolete
+            label: Obsolète
+            color: '#6b7280'
+            isTerminal: true
+      - name: test-moteur
+        label: Test Moteur
+        prefix: TMOT
+        category: test
+        fields:
+          - name: banc
+            label: Banc moteur
+            type: enum
+            values:
+              - Banc dynamométrique
+              - Banc thermique
+              - Banc HIL
+        statuses:
+          - name: draft
+            label: Brouillon
+            color: '#475569'
+          - name: review
+            label: En review
+            color: '#b45309'
+          - name: approved
+            label: Approuvé
+            color: '#16a34a'
+            isApproval: true
+          - name: obsolete
+            label: Obsolète
+            color: '#6b7280'
+            isTerminal: true
+    children:
+      - name: firmware-moteur
+        label: Firmware FOC
+        readonly: false
+        objectTypes:
+          - name: exigence-fw-moteur
+            label: Exigence Firmware moteur
+            prefix: FWM
+            category: requirement
+            fields:
+              - *ref_0
+              - *ref_1
+              - *ref_2
+            statuses: *ref_3
+    implements:
+      - interface: if-bus-interne
+        roles:
+          - device
+implements:
+  - interface: if-bus-interne
+    roles:
+      - device
+linkTypes:
+  - name: implementation
+    labelSourceToTarget: est implémentée par
+    labelTargetToSource: implémente
+    sourceRefs:
+      - requirement
+    targetRefs:
+      - requirement
+  - name: verification
+    labelSourceToTarget: vérifie
+    labelTargetToSource: est vérifiée par
+    sourceRefs:
+      - test
+    targetRefs:
+      - requirement
+  - name: implements-interface
+    labelSourceToTarget: implémente l'exigence d'interface
+    labelTargetToSource: est implémentée (interface) par
+    sourceRefs:
+      - requirement
+    targetRefs:
+      - requirement

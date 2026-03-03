@@ -1,0 +1,4 @@
+dependencies:
+  - name: if-bus-interne
+    url: https://github.com/laurentolive/demo-ll800-if-bus-interne.git
+    pin: main
