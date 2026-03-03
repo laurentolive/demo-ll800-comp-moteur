@@ -1,0 +1,17 @@
+<mxfile host="polenta-demo" agent="generate.mjs" version="24.0.0">
+  <diagram id="7e2d0e17-b660-4dfb-a6ff-2b804b78047c" name="Onduleur triphasé">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node-bus-dc" value="Bus DC 325 V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="40" y="100" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-pont" value="Pont IGBT 3 bras" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1"><mxGeometry x="260" y="100" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-moteur-bldc" value="Moteur BLDC" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1"><mxGeometry x="480" y="100" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="node-mcu-foc" value="MCU FOC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1"><mxGeometry x="260" y="240" width="140" height="60" as="geometry" /></mxCell>
+        <mxCell id="o1" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-bus-dc" target="node-pont"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="o2" value="U V W" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-pont" target="node-moteur-bldc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="o3" value="PWM 16 kHz" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="node-mcu-foc" target="node-pont"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

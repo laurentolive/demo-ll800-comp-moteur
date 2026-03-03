@@ -1,0 +1,21 @@
+parameters:
+  couple_nominal:
+    value: '1.2'
+    unit: N·m
+    description: Couple nominal en lavage
+  courant_max:
+    value: '8'
+    unit: A
+    description: Courant de phase maximal
+  rendement_min:
+    value: '90'
+    unit: '%'
+    description: Rendement minimal de l'onduleur à charge nominale
+  temp_max_bobinage:
+    value: '130'
+    unit: °C
+    description: Température max. du bobinage (classe B)
+  vitesse_essorage_max:
+    value: '1200'
+    unit: tr/min
+    description: Vitesse maximale tambour supportée par le moteur
