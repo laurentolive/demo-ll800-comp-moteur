@@ -1,0 +1,11 @@
+id: FWM-0001
+projectId: ''
+branchId: ''
+objectTypeRef: firmware-moteur::exigence-fw-moteur
+title: Contrôle vectoriel (FOC)
+status: draft
+version: 1
+fields:
+  statement: THE firmware moteur SHALL réguler la vitesse par contrôle vectoriel sans capteur à 16 kHz.
+  priority: high
+jiraLinks: []

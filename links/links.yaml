@@ -1,0 +1,19 @@
+links:
+  - id: lnk_1773739800198_6bq9
+    type: implementation
+    sourceId: MOT-0001
+    targetId: FWM-0001
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1773739800648_vd4i
+    type: implementation
+    sourceId: MOT-0004
+    targetId: FWM-0003
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1773739800540_oc4v
+    type: implementation
+    sourceId: MOT-0005
+    targetId: FWM-0002
+    createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Yann Petit

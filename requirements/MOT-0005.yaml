@@ -1,0 +1,22 @@
+id: MOT-0005
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-moteur
+title: Mesure du balourd
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHILE le tambour tourne à 300 tr/min
+    THE moteur SHALL estimer le balourd à partir de l'ondulation de couple.
+  priority: medium
+jiraLinks: []
+history:
+  status:
+    - value: draft
+      at: '2026-03-17T09:30:00Z'
+      by: Yann Petit
+  priority:
+    - value: medium
+      at: '2026-03-17T09:30:00Z'
+      by: Yann Petit
