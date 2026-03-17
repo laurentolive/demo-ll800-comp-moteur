@@ -1,0 +1,11 @@
+id: MOT-0006
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-moteur
+title: Périphérique du bus interne
+status: draft
+version: 1
+fields:
+  statement: THE moteur SHALL se comporter en périphérique du bus interne.
+  priority: high
+jiraLinks: []

@@ -1,0 +1,14 @@
+id: MOT-0003
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-moteur
+title: Protection thermique du bobinage
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF la température du bobinage dépasse {temp_max_bobinage}
+    THEN THE moteur SHALL être mis hors tension.
+  priority: high
+  securite: true
+jiraLinks: []

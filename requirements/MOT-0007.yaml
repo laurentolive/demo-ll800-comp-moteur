@@ -1,0 +1,16 @@
+id: MOT-0007
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-moteur
+title: Rendement de l'onduleur
+status: draft
+version: 1
+fields:
+  statement: |-
+    THE onduleur SHALL présenter un rendement supérieur à {rendement_min} à charge nominale.
+
+    ```drawio
+    {"path":"diagrams/onduleur.drawio","width":520}
+    ```
+  priority: medium
+jiraLinks: []

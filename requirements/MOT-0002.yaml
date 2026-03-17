@@ -1,0 +1,12 @@
+id: MOT-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-moteur
+title: Couple nominal
+status: draft
+version: 1
+fields:
+  statement: THE moteur SHALL délivrer un couple de {couple_nominal} en phase de lavage.
+  priority: medium
+  couple_nm: 1.2
+jiraLinks: []

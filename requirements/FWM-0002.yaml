@@ -1,0 +1,13 @@
+id: FWM-0002
+projectId: ''
+branchId: ''
+objectTypeRef: firmware-moteur::exigence-fw-moteur
+title: Estimation de charge
+status: draft
+version: 1
+fields:
+  statement: |-
+    WHEN le cycle démarre
+    THE firmware moteur SHALL estimer la masse de linge à ± 0,5 kg.
+  priority: medium
+jiraLinks: []

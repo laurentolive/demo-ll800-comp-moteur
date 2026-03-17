@@ -1,0 +1,50 @@
+nodeId: root
+typeId: exigence-moteur
+root:
+  - id: db94232b-3863-4a6d-aa2d-b5364e194d01
+    kind: folder
+    name: Performance
+    children:
+      - id: c43ec558-99be-4271-a940-c8f44812883b
+        kind: item
+        name: Vitesse maximale
+        objectId: MOT-0001
+        children: []
+      - id: 4f89ca9f-2218-4496-ab4e-73d2e9d53738
+        kind: item
+        name: Couple nominal
+        objectId: MOT-0002
+        children: []
+      - id: 99c435be-b54c-4a1a-a62b-3967bcaaff37
+        kind: item
+        name: Mesure du balourd
+        objectId: MOT-0005
+        children: []
+      - id: 37141b85-909f-4fc9-a20a-1a00827446b5
+        kind: item
+        name: Rendement de l'onduleur
+        objectId: MOT-0007
+        children: []
+  - id: 9ad870b3-d84c-491e-a044-6eddfbf70a1e
+    kind: folder
+    name: Protection
+    children:
+      - id: 7f59c627-320a-4430-a5c3-ba46e0a7e497
+        kind: item
+        name: Protection thermique du bobinage
+        objectId: MOT-0003
+        children: []
+      - id: 48f4482f-361b-424b-a5f8-92adcaefe3ff
+        kind: item
+        name: Protection contre les surintensités
+        objectId: MOT-0004
+        children: []
+  - id: db6ec054-dcf3-4fe8-a975-9307f2bb0b7d
+    kind: folder
+    name: Interfaces
+    children:
+      - id: efef4176-e15b-42e4-a4ac-6f24b063065d
+        kind: item
+        name: Périphérique du bus interne
+        objectId: MOT-0006
+        children: []

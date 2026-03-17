@@ -1,0 +1,12 @@
+id: MOT-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-moteur
+title: Vitesse maximale
+status: draft
+version: 1
+fields:
+  statement: THE moteur SHALL entraîner le tambour jusqu'à {vitesse_essorage_max} à pleine charge.
+  priority: high
+  couple_nm: 0.4
+jiraLinks: []

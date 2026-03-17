@@ -1,0 +1,14 @@
+id: MOT-0004
+projectId: ''
+branchId: ''
+objectTypeRef: root::exigence-moteur
+title: Protection contre les surintensités
+status: draft
+version: 1
+fields:
+  statement: |-
+    IF le courant de phase dépasse {courant_max}
+    THEN THE onduleur SHALL couper les commandes de grille en moins de 10 µs.
+  priority: high
+  securite: true
+jiraLinks: []
