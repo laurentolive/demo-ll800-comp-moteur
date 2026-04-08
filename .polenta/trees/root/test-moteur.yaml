@@ -1,0 +1,23 @@
+nodeId: root
+typeId: test-moteur
+root:
+  - id: 6e7f80ec-5469-49a8-aaf2-30f2b693c75d
+    kind: item
+    name: Montée en vitesse
+    objectId: TMOT-0001
+    children: []
+  - id: 3e61379a-f77b-4b78-a7cb-739bcb068a9e
+    kind: item
+    name: Protection thermique
+    objectId: TMOT-0002
+    children: []
+  - id: 40b3f23e-ec42-448d-a480-11e9373776dd
+    kind: item
+    name: Coupure sur surintensité
+    objectId: TMOT-0003
+    children: []
+  - id: a8c83bbe-6591-402b-a06c-a71511456d64
+    kind: item
+    name: Couple nominal
+    objectId: TMOT-0004
+    children: []

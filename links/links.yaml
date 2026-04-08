@@ -1,4 +1,32 @@
 links:
+  - id: lnk_1775649600201_fl5u
+    type: verification
+    sourceId: TMOT-0001
+    targetId: MOT-0001
+    coverageType: full
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1775649600384_s2o1
+    type: verification
+    sourceId: TMOT-0002
+    targetId: MOT-0003
+    coverageType: full
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1775649600045_g8l3
+    type: verification
+    sourceId: TMOT-0003
+    targetId: MOT-0004
+    coverageType: full
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1775649600413_6hpr
+    type: verification
+    sourceId: TMOT-0004
+    targetId: MOT-0002
+    coverageType: full
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Yann Petit
   - id: lnk_1773739800198_6bq9
     type: implementation
     sourceId: MOT-0001
@@ -16,4 +44,28 @@ links:
     sourceId: MOT-0005
     targetId: FWM-0002
     createdAt: '2026-03-17T09:30:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1775649600052_9asr
+    type: implements-interface
+    sourceId: MOT-0006
+    targetId: BUS-0001
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1775649600014_k2mk
+    type: implements-interface
+    sourceId: MOT-0006
+    targetId: BUS-0002
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1775649600049_rtd7
+    type: implements-interface
+    sourceId: MOT-0006
+    targetId: BUS-0003
+    createdAt: '2026-04-08T12:00:00.000Z'
+    createdBy: Yann Petit
+  - id: lnk_1775649600070_ux20
+    type: implements-interface
+    sourceId: MOT-0006
+    targetId: BUS-0005
+    createdAt: '2026-04-08T12:00:00.000Z'
     createdBy: Yann Petit

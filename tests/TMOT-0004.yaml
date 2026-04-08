@@ -1,0 +1,17 @@
+id: TMOT-0004
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-moteur
+title: Couple nominal
+status: draft
+version: 1
+preconditions: ''
+equipment: []
+steps:
+  - order: 1
+    action: Mesurer le couple en régime de lavage.
+    expectedResult: Couple ≥ {couple_nominal}.
+    notes: null
+postconditions: ''
+fields:
+  banc: Banc dynamométrique

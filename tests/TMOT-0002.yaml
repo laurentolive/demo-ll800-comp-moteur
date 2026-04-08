@@ -1,0 +1,17 @@
+id: TMOT-0002
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-moteur
+title: Protection thermique
+status: draft
+version: 1
+preconditions: ''
+equipment: []
+steps:
+  - order: 1
+    action: Chauffer le bobinage jusqu'à {temp_max_bobinage}.
+    expectedResult: Mise hors tension du moteur.
+    notes: null
+postconditions: ''
+fields:
+  banc: Banc thermique

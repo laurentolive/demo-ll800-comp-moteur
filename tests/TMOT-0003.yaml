@@ -1,0 +1,17 @@
+id: TMOT-0003
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-moteur
+title: Coupure sur surintensité
+status: draft
+version: 1
+preconditions: ''
+equipment: []
+steps:
+  - order: 1
+    action: Injecter un courant de phase de 1,2 × {courant_max}.
+    expectedResult: Coupure des grilles en moins de 10 µs.
+    notes: null
+postconditions: ''
+fields:
+  banc: Banc HIL

@@ -1,0 +1,17 @@
+id: TMOT-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::test-moteur
+title: Montée en vitesse
+status: draft
+version: 1
+preconditions: Tambour chargé à {couple_nominal}.
+equipment: []
+steps:
+  - order: 1
+    action: Commander une consigne à {vitesse_essorage_max}.
+    expectedResult: Vitesse atteinte en moins de 60 s.
+    notes: null
+postconditions: ''
+fields:
+  banc: Banc dynamométrique
