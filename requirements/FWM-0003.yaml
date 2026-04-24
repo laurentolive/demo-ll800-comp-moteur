@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: firmware-moteur::exigence-fw-moteur
 title: Arrêt sûr
-status: draft
+status: approved
 version: 1
 fields:
   statement: |-
