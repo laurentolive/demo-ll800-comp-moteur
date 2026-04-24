@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-moteur
 title: Montée en vitesse
-status: draft
+status: approved
 version: 1
 preconditions: Tambour chargé à {couple_nominal}.
 equipment: []

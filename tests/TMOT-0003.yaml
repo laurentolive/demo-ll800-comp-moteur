@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-moteur
 title: Coupure sur surintensité
-status: draft
+status: approved
 version: 1
 preconditions: ''
 equipment: []

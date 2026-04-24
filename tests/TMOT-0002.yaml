@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::test-moteur
 title: Protection thermique
-status: draft
+status: approved
 version: 1
 preconditions: ''
 equipment: []
