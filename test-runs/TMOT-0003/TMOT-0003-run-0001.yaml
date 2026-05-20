@@ -1,0 +1,16 @@
+id: TMOT-0003-run-0001
+testCaseId: TMOT-0003
+campaignEntry:
+  campaignId: CMOT-0001
+  entryId: TMOT-0003-1
+result: FAIL
+executedAt: '2026-05-14T10:00:00.000Z'
+executedBy: Yann Petit
+duration: 600
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: FAIL
+    comment: Coupure mesurée à 14 µs.
+    executedAt: '2026-05-14T10:00:00.000Z'
+notes: Temps de coupure au-dessus de la limite.

@@ -1,0 +1,45 @@
+id: CMOT-0001
+title: Essais de protection de l'onduleur
+objectTypeRef: root::campagne-moteur
+fields:
+  lieu: Banc HIL Lyon
+level: campagne-moteur
+component: root
+status: completed
+testCaseIds:
+  - TMOT-0003
+runs:
+  - entryId: TMOT-0003-1
+    testCaseId: TMOT-0003
+    testSnapshot:
+      id: TMOT-0003
+      projectId: ''
+      branchId: ''
+      objectTypeRef: root::test-moteur
+      title: Coupure sur surintensité
+      status: approved
+      version: 1
+      preconditions: ''
+      equipment: []
+      steps:
+        - order: 1
+          action: Injecter un courant de phase de 1,2 × {courant_max}.
+          expectedResult: Coupure des grilles en moins de 10 µs.
+          notes: null
+      postconditions: ''
+      fields:
+        banc: Banc HIL
+      createdAt: null
+      createdBy: null
+      updatedAt: null
+      updatedBy: null
+    status: FAIL
+    addedAt: '2026-05-13T08:00:00.000Z'
+    runId: TMOT-0003-run-0001
+    executedAt: '2026-05-14T10:00:00.000Z'
+    executedBy: Yann Petit
+    resolvedParams:
+      courant_max: 8 A
+    paramSourceRef: RE1
+createdAt: '2026-05-13T08:00:00.000Z'
+completedAt: '2026-05-15T17:00:00.000Z'
