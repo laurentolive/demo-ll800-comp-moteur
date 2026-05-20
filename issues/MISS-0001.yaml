@@ -1,0 +1,18 @@
+id: MISS-0001
+projectId: ''
+branchId: ''
+objectTypeRef: root::issue
+title: Temps de coupure de l'onduleur trop long
+status: ouverte
+version: 1
+fields:
+  gravite: majeure
+  description: Coupure à 14 µs mesurée par **TMOT-0003**, limite à 10 µs.
+origin:
+  runs:
+    - TMOT-0003-run-0001
+history:
+  status:
+    - value: ouverte
+      at: '2026-05-16T07:00:00Z'
+      by: Yann Petit
