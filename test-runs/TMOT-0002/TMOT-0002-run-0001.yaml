@@ -1,0 +1,14 @@
+id: TMOT-0002-run-0001
+testCaseId: TMOT-0002
+campaignRunId: null
+result: PASS
+executedAt: '2026-05-07T09:30:00.000Z'
+executedBy: Yann Petit
+duration: 3600
+equipmentUsed: []
+stepResults:
+  - order: 1
+    result: PASS
+    comment: ''
+    executedAt: '2026-05-07T09:30:00.000Z'
+notes: ''
