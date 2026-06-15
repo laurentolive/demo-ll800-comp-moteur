@@ -21,3 +21,4 @@ history:
     - value: high
       at: '2026-03-17T09:30:00Z'
       by: Yann Petit
+needsRevalidation: true

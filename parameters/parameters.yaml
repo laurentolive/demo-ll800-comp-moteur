@@ -16,6 +16,6 @@ parameters:
     unit: °C
     description: Température max. du bobinage (classe B)
   vitesse_essorage_max:
-    value: '1200'
+    value: '1400'
     unit: tr/min
     description: Vitesse maximale tambour supportée par le moteur
