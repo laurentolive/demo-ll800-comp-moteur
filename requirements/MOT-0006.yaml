@@ -9,3 +9,4 @@ fields:
   statement: THE moteur SHALL se comporter en périphérique du bus interne.
   priority: high
 jiraLinks: []
+needsRevalidation: true

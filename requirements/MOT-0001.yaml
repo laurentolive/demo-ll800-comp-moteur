@@ -10,3 +10,4 @@ fields:
   priority: high
   couple_nm: 0.4
 jiraLinks: []
+needsRevalidation: true
