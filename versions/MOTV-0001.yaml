@@ -1,7 +1,7 @@
 id: MOTV-0001
 objectTypeRef: root::version
 title: 1.2.4
-status: en_cours
+status: released
 version: 1
 components:
   if-bus-interne: IFV-0001
@@ -27,6 +27,9 @@ history:
     - value: en_cours
       at: '2026-06-17T07:00:00Z'
       by: Yann Petit
+    - value: released
+      at: '2026-06-17T07:00:06Z'
+      by: Yann Petit
   changes:
     - value: []
       at: '2026-06-17T07:00:01Z'
@@ -48,3 +51,132 @@ history:
         - TMOT-0004
       at: '2026-06-17T07:00:03Z'
       by: Yann Petit
+freeze:
+  tag: comp-moteur-1.2.4
+  sha: 2a6a0af3b8cfa0efeb6679e946dd938071cd733b
+  at: '2026-06-17T07:00:05.000Z'
+analysis:
+  computedAt: '2026-06-17T07:00:04.000Z'
+  frozen: true
+  roots:
+    - elementId: MOT-0001
+      elementType: requirement
+      title: Vitesse maximale
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0002
+      elementType: requirement
+      title: Couple nominal
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0003
+      elementType: requirement
+      title: Protection thermique du bobinage
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0004
+      elementType: requirement
+      title: Protection contre les surintensités
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0005
+      elementType: requirement
+      title: Mesure du balourd
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0006
+      elementType: requirement
+      title: Périphérique du bus interne
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: MOT-0007
+      elementType: requirement
+      title: Rendement de l'onduleur
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: FWM-0001
+      elementType: requirement
+      title: Contrôle vectoriel (FOC)
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: FWM-0002
+      elementType: requirement
+      title: Estimation de charge
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: FWM-0003
+      elementType: requirement
+      title: Arrêt sûr
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0001
+      elementType: test_case
+      title: Montée en vitesse
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0002
+      elementType: test_case
+      title: Protection thermique
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0003
+      elementType: test_case
+      title: Coupure sur surintensité
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: TMOT-0004
+      elementType: test_case
+      title: Couple nominal
+      component: comp-moteur
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0001
+      elementType: requirement
+      title: Débit du bus
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0002
+      elementType: requirement
+      title: Délai de réponse d'un périphérique
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0003
+      elementType: requirement
+      title: Signalement de défaut
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0004
+      elementType: requirement
+      title: Scrutation cyclique
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0005
+      elementType: requirement
+      title: Contrôle d'intégrité CRC-16
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+    - elementId: BUS-0006
+      elementType: requirement
+      title: Mode veille du bus
+      component: if-bus-interne
+      descendantTree: []
+      ascendantTree: []
+  rows: []
