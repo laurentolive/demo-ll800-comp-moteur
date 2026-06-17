@@ -1,0 +1,50 @@
+id: MOTV-0001
+objectTypeRef: root::version
+title: 1.2.4
+status: en_cours
+version: 1
+components:
+  if-bus-interne: IFV-0001
+changes:
+  - id: MOT-0001
+  - id: MOT-0002
+  - id: MOT-0003
+  - id: MOT-0004
+  - id: MOT-0005
+  - id: MOT-0006
+  - id: MOT-0007
+  - id: FWM-0001
+  - id: FWM-0002
+  - id: FWM-0003
+  - id: TMOT-0001
+  - id: TMOT-0002
+  - id: TMOT-0003
+  - id: TMOT-0004
+fields:
+  description: Essorage 1400 tr/min.
+history:
+  status:
+    - value: en_cours
+      at: '2026-06-17T07:00:00Z'
+      by: Yann Petit
+  changes:
+    - value: []
+      at: '2026-06-17T07:00:01Z'
+      by: Yann Petit
+    - value:
+        - FWM-0001
+        - FWM-0002
+        - FWM-0003
+        - MOT-0001
+        - MOT-0002
+        - MOT-0003
+        - MOT-0004
+        - MOT-0005
+        - MOT-0006
+        - MOT-0007
+        - TMOT-0001
+        - TMOT-0002
+        - TMOT-0003
+        - TMOT-0004
+      at: '2026-06-17T07:00:03Z'
+      by: Yann Petit
