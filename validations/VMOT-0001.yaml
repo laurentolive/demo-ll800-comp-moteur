@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::validation
 title: Validation 1.2.4
-status: en_cours
+status: signee
 versionId: MOTV-0001
 fields: {}
 entries:
@@ -12,55 +12,188 @@ entries:
     contentHash: d8c49e776c2413f3
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:20.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: not_covered
+      impact:
+        kind: changed
+        sources: []
+      tests: []
   - requirementId: FWM-0002
     decision: conforme
     contentHash: 3433799b3f233349
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:22.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: not_covered
+      impact:
+        kind: changed
+        sources: []
+      tests: []
   - requirementId: FWM-0003
     decision: conforme
     contentHash: b3f02a34be8bb3c5
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:24.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: not_covered
+      impact:
+        kind: changed
+        sources: []
+      tests: []
   - requirementId: MOT-0001
     decision: conforme
     contentHash: 455b2c4002adf570
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:26.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: needs_revalidation
+      impact:
+        kind: changed
+        sources: []
+      tests:
+        - id: TMOT-0001
+          title: Montée en vitesse
+          local: true
+          lastRun:
+            id: TMOT-0001-run-0001
+            result: PASS
+            executedAt: '2026-05-06T09:30:00.000Z'
+            executedBy: Yann Petit
+            notes: ''
   - requirementId: MOT-0002
     decision: conforme
     contentHash: c7af5cd6343362eb
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:28.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: covered
+      impact:
+        kind: changed
+        sources: []
+      tests:
+        - id: TMOT-0004
+          title: Couple nominal
+          local: true
   - requirementId: MOT-0003
     decision: conforme
     contentHash: 4e066b0f0ad7fdfc
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:30.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: validated
+      impact:
+        kind: changed
+        sources: []
+      tests:
+        - id: TMOT-0002
+          title: Protection thermique
+          local: true
+          lastRun:
+            id: TMOT-0002-run-0001
+            result: PASS
+            executedAt: '2026-05-07T09:30:00.000Z'
+            executedBy: Yann Petit
+            notes: ''
   - requirementId: MOT-0004
     decision: derogation
     comment: Coupure à 14 µs acceptée pour la présérie, correction prévue en 1.3.
     contentHash: 42e8f794f8fdfd33
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:32.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: failing
+      impact:
+        kind: changed
+        sources: []
+      tests:
+        - id: TMOT-0003
+          title: Coupure sur surintensité
+          local: true
+          lastRun:
+            id: TMOT-0003-run-0001
+            result: FAIL
+            executedAt: '2026-05-14T10:00:00.000Z'
+            executedBy: Yann Petit
+            notes: Temps de coupure au-dessus de la limite.
   - requirementId: MOT-0005
     decision: conforme
     contentHash: 8d2ec31624d281ed
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:34.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: not_covered
+      impact:
+        kind: changed
+        sources: []
+      tests: []
   - requirementId: MOT-0006
     decision: conforme
     contentHash: 28977c101d785e01
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:36.000Z'
+    atSignature:
+      status: approved
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: needs_revalidation
+      impact:
+        kind: changed
+        sources: []
+      tests: []
   - requirementId: MOT-0007
     decision: hors_scope
     comment: Rendement mesuré en 1.3.
     contentHash: dc6af360bc36bfe9
     decidedBy: Yann Petit
     decidedAt: '2026-06-17T07:00:38.000Z'
+    atSignature:
+      status: draft
+      designVersion:
+        id: MOTV-0001
+        title: 1.2.4
+      coverageStatus: not_covered
+      impact:
+        kind: changed
+        sources: []
+      tests: []
 history:
   status:
     - value: en_cours
       at: '2026-06-17T07:00:10Z'
+      by: Yann Petit
+    - value: signee
+      at: '2026-06-17T07:00:41Z'
       by: Yann Petit
