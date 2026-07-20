@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-moteur
 title: Rendement de l'onduleur
-status: draft
+status: review
 version: 1
 fields:
   statement: |-
@@ -18,6 +18,9 @@ history:
   status:
     - value: draft
       at: '2026-03-17T09:30:00Z'
+      by: Yann Petit
+    - value: review
+      at: '2026-07-20T13:00:00Z'
       by: Yann Petit
   priority:
     - value: medium
