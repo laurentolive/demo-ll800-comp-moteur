@@ -3,7 +3,7 @@ projectId: ''
 branchId: ''
 objectTypeRef: root::exigence-moteur
 title: Rendement de l'onduleur
-status: draft
+status: review
 version: 1
 fields:
   statement: |-
