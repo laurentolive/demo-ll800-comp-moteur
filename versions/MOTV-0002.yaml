@@ -1,0 +1,30 @@
+id: MOTV-0002
+objectTypeRef: root::version
+title: '1.3'
+status: en_cours
+version: 1
+basedOn: MOTV-0001
+components:
+  if-bus-interne: IFV-0001
+changes:
+  - id: MOT-0007
+    base:
+      sha: 2a6a0af3b8cfa0efeb6679e946dd938071cd733b
+      version: 1
+  - id: MISS-0001
+fields:
+  description: Correction du temps de coupure, mesure du rendement.
+history:
+  status:
+    - value: en_cours
+      at: '2026-07-21T07:00:00Z'
+      by: Yann Petit
+  changes:
+    - value: []
+      at: '2026-07-21T07:00:01Z'
+      by: Yann Petit
+    - value:
+        - MISS-0001
+        - MOT-0007
+      at: '2026-07-21T07:00:03Z'
+      by: Yann Petit
